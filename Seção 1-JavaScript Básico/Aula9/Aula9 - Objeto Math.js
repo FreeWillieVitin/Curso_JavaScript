@@ -12,4 +12,4 @@ const aleatorio = Math.random(); // Método random gera um número aleatório
 console.log(aleatorio);
 
 console.log(Math.PI); // Retorna o valor de PI
-console.log(Math.pow(2, 10)); // Pow realiza potenciação da mesma forma que o operador (**) teste
+console.log(Math.pow(2, 10)); // Pow realiza potenciação da mesma forma que o operador (**)
