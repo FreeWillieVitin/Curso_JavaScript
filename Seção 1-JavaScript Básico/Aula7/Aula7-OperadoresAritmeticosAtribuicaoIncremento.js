@@ -4,7 +4,7 @@
  * + Adição ou concatenação no caso de string
  * - Subtração
  * / Divisão
- * * Muntiplicação
+ * * Multiplicação
  * ** Potênciação
  * % Resto da divisão
 */

@@ -7,7 +7,7 @@ console.log(Math.ceil(num1)); // Já o método ceil é o oposto e arredonda para
 console.log(Math.round(num1)); // Arredonda para o valor mais próximo, como o 9.54 está mais proximo do 10 do que o para o 9 então o seu retorno é 10
 console.log(Math.max(1,2,3,4,5,180548,11111111,1.1578)); // Max retorna o maior número de uma sequência de números
 console.log(Math.min(1,2,3,4,5,180548,11111111,1.1578)); // Min retorna o menor número de uma sequência de números
-
+console.log(Math.sqrt(num1)); // Calcula a raiz quadrada
 const aleatorio = Math.random(); // Método random gera um número aleatório
 console.log(aleatorio);
 

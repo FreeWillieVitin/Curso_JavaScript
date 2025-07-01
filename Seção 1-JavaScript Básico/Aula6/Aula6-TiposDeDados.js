@@ -111,5 +111,41 @@ console.log(array, arrayB);
 
 arrayB.push(4); //Incluí valor á variável
 console.log(array, arrayB);
+
+// como as strings arrays também são indexados, ou seja posso selecionar os elementos que constituiem a array
+// Exemplo dos index:  0          1         2
+const arrayNomes = ['Victor', 'Marieli', 'Luiz'];
+const arrayNumeros = [27, 26, 53];
+console.log(arrayNomes);
+console.log(arrayNomes[0]);
+
+arrayNomes[0] = 'Victor Hugo'; //É possível alterar o valor de um index do array
+console.log(arrayNomes.length); // Exibe o tamanho do array, mesma função usada para contar os caracteres de uma string
+console.log(arrayNomes);
+
+arrayNomes.push('Kleber'); // push adiciona um valor ao final do array
+console.log(arrayNomes.length);
+console.log(arrayNomes);
+
+arrayNomes.unshift('Zayon'); //unshift adiciona o valor no inicio do array, empurrando todos os existentes um index a frente ou seja o que for 0 passará a ser 1 e assim por diante
+console.log(arrayNomes.length);
+console.log(arrayNomes);
+
+arrayNomes.pop(); // pop serve para retirar o valor do final da array
+console.log(arrayNomes.length);
+console.log(arrayNomes);
+
+arrayNomes.shift(); // shift é a função para remover o primeiro elemento
+console.log(arrayNomes.length);
+console.log(arrayNomes);
+
+delete arrayNomes[0]; // Deleta o valor referente ao index passado como parâmetro porém não reposiciona os index, causando um "furo" na array deixando ela sem aquele index
+console.log(arrayNomes.length);
+console.log(arrayNomes);
+
+console.log(arrayNomes.slice(1,3)) // "Fatia" a array exibindo os valores selecionado, a mesma função que é usada para strings porém agora não é a letra selecionada e sim os valroes das array
+console.log(typeof arrayNomes); // Array é um objeto
+console.log(arrayNomes instanceof Array); // Verifica se a variável é uma array 
+
 console.log('');
 console.log('-----------------------------------------------------------Fim da parte sobre array-------------------------------------------------------------------------')
