@@ -25,7 +25,7 @@ console.log(soma(8,1))
 console.log('');
 console.log('---------------------------------------------------------------------Criando uma função dentro da variável---------------------------------------------------')
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-const raizQuadrada = function (x) { // É possível criar a função juintamente com a variável
+const raizQuadrada = function (x) { // É possível criar a função juntamente com a variável
     return Math.sqrt(x)
 };
 
